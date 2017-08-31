@@ -1,4 +1,4 @@
 # EE120B
 Final Project(Simon)
 
-
+The Simon game is a memory-based game that tests if the player can follow a certain pattern of LED outputs and follow them by corresponding them to certain button inputs. The goal of the game is to keep increasing the pattern until the player can memorize the output of 9 LEDs. If there is an issue such as a wrong button input, the game will automatically display the lost screen and then redirect the game back to the beginning with the game and score reset and with a new pattern to play with. Since the program is not connected to a clock, I set a pseudo random code so that everytime the game is won or lost, the pattern is different each time guaranteeing that the player cannot memorize the game after failing multiple times. For each LED, I set it so that each LED and button should have their own frequency and the sounds will not overlap. The button inputs should correspond to the specific speaker output and this is implemented in order for people that have either visual or hearing impairments to enjoy the game as well. 
